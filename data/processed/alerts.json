@@ -1,0 +1,150 @@
+[
+  {
+    "alert_id": "88dbf79c",
+    "transaction_id": "TXN_FRAUD_999",
+    "user_id": "USER_NEW_00",
+    "amount": 999999.0,
+    "risk_score": 61.28,
+    "status": "flagged",
+    "top_features": [
+      {
+        "feature": "recipient_new",
+        "value": -1.5793
+      },
+      {
+        "feature": "user_mean_amount",
+        "value": -1.4788
+      },
+      {
+        "feature": "log_amount",
+        "value": -1.0012
+      },
+      {
+        "feature": "hour",
+        "value": -0.4627
+      },
+      {
+        "feature": "txn_type_enc",
+        "value": -0.3387
+      }
+    ],
+    "report": {
+      "what_happened": "User USER_NEW_00 made a $999999.00 transfer from Unknown Location using Unknown Device at 2026-10-03T03:00:00.",
+      "why_is_risky": "Risk score 61.3/100. Key risk factors: recipient_new, user_mean_amount, log_amount.",
+      "next_actions": "1. Review transaction. 2. Contact customer. 3. Block if suspicious."
+    },
+    "created_at": "2026-10-03T19:30:39.373912",
+    "updated_at": "2026-10-03T19:30:39.373912"
+  },
+  {
+    "alert_id": "de0b531e",
+    "transaction_id": "TXN_FRAUD_999",
+    "user_id": "USER_NEW_00",
+    "amount": 999999.0,
+    "risk_score": 61.28,
+    "status": "flagged",
+    "top_features": [
+      {
+        "feature": "recipient_new",
+        "value": -1.5793
+      },
+      {
+        "feature": "user_mean_amount",
+        "value": -1.4788
+      },
+      {
+        "feature": "log_amount",
+        "value": -1.0012
+      },
+      {
+        "feature": "hour",
+        "value": -0.4627
+      },
+      {
+        "feature": "txn_type_enc",
+        "value": -0.3387
+      }
+    ],
+    "report": {
+      "what_happened": "User USER_NEW_00 made a $999999.00 transfer from Unknown Location using Unknown Device at 2026-10-03T03:00:00.",
+      "why_is_risky": "Risk score 61.3/100. Key risk factors: recipient_new, user_mean_amount, log_amount.",
+      "next_actions": "1. Review transaction. 2. Contact customer. 3. Block if suspicious."
+    },
+    "created_at": "2026-10-03T19:33:18.444519",
+    "updated_at": "2026-10-03T19:33:18.444519"
+  },
+  {
+    "alert_id": "1656ceb6",
+    "transaction_id": "TXN_ATO_1791044705061",
+    "user_id": "USER_DEMO_001",
+    "amount": 9500.0,
+    "risk_score": 60.7,
+    "status": "flagged",
+    "top_features": [
+      {
+        "feature": "recipient_new",
+        "value": -1.6831
+      },
+      {
+        "feature": "user_mean_amount",
+        "value": -1.5596
+      },
+      {
+        "feature": "log_amount",
+        "value": -0.9962
+      },
+      {
+        "feature": "txn_type_enc",
+        "value": -0.3462
+      },
+      {
+        "feature": "user_std_amount",
+        "value": -0.234
+      }
+    ],
+    "report": {
+      "what_happened": "User USER_DEMO_001 made a $9500.00 transfer from Nigeria using Unknown Browser at 2026-10-03T16:25:05.061Z.",
+      "why_is_risky": "Risk score 60.7/100. Key risk factors: recipient_new, user_mean_amount, log_amount.",
+      "next_actions": "1. Review transaction. 2. Contact customer. 3. Block if suspicious."
+    },
+    "created_at": "2026-10-03T22:25:07.091868",
+    "updated_at": "2026-10-03T22:25:07.091868"
+  },
+  {
+    "alert_id": "8c3b1695",
+    "transaction_id": "TXN_ATO_1791049495283",
+    "user_id": "\u09b0\u09b9\u09bf\u09ae \u09ae\u09bf\u09af\u09bc\u09be",
+    "amount": 750000.0,
+    "risk_score": 61.36,
+    "status": "flagged",
+    "top_features": [
+      {
+        "feature": "recipient_new",
+        "value": -1.6669
+      },
+      {
+        "feature": "user_mean_amount",
+        "value": -1.5805
+      },
+      {
+        "feature": "log_amount",
+        "value": -0.9759
+      },
+      {
+        "feature": "txn_type_enc",
+        "value": -0.3328
+      },
+      {
+        "feature": "hour",
+        "value": -0.2876
+      }
+    ],
+    "report": {
+      "what_happened": "User \u09b0\u09b9\u09bf\u09ae \u09ae\u09bf\u09af\u09bc\u09be made a $750000.00 transfer from \u09a8\u09be\u0987\u099c\u09c7\u09b0\u09bf\u09af\u09bc\u09be using Unknown Browser at 2026-10-03T17:44:55.283Z.",
+      "why_is_risky": "Risk score 61.4/100. Key risk factors: recipient_new, user_mean_amount, log_amount.",
+      "next_actions": "1. Review transaction. 2. Contact customer. 3. Block if suspicious."
+    },
+    "created_at": "2026-10-03T23:44:57.287626",
+    "updated_at": "2026-10-03T23:44:57.287626"
+  }
+]
